@@ -9,10 +9,8 @@
     "lint": "eslint --ext .ts,.tsx src",
     "lint:fix": "npm run lint -- --fix"
   },
-  "dependencies": {
-    "@react-native-community/netinfo": "6.0.0"
-  },
   "peerDependencies": {
+    "@react-native-community/netinfo": "6.0.0",
     "react-native": "0.63.4",
     "react-native-windows": "0.63.24",
     "reactxp": "github:alariej/reactxp"
