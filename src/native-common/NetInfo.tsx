@@ -17,7 +17,7 @@ export class NetInfo extends Interfaces.NetInfo {
         super();
 
         const onEventOccurredHandler =  (state: RNNetInfo.NetInfoState) => {
-            this.connectivityChangedEvent.fire(state.isConnected);
+            this.connectivityChangedEvent.fire(state.isConnected!);
         };
 
         RNNetInfo.addEventListener(onEventOccurredHandler);
@@ -25,7 +25,7 @@ export class NetInfo extends Interfaces.NetInfo {
 
     isConnected(): Promise<boolean> {
         return RNNetInfo.fetch()
-            .then((state: RNNetInfo.NetInfoState) => state.isConnected)
+            .then((state: RNNetInfo.NetInfoState) => state.isConnected!)
             .catch(() => Promise.reject('NetInfo.isConnected.fetch() failed'));
     }
 
