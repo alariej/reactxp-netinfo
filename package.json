@@ -9,14 +9,16 @@
     "lint": "eslint --ext .ts,.tsx src",
     "lint:fix": "npm run lint -- --fix"
   },
+  "dependencies": {
+    "@react-native-community/netinfo": "6.0.2"
+  },
   "peerDependencies": {
-    "@react-native-community/netinfo": "5.0.0",
     "react-native": "0.65.1",
     "react-native-windows": "0.65.2",
     "reactxp": "github:alariej/reactxp"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.31.1",
+    "@typescript-eslint/eslint-plugin": "4.32.0",
     "eslint": "7.32.0",
     "eslint-config-skype": "1.9.2",
     "eslint-plugin-import": "2.24.2",
