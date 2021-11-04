@@ -10,10 +10,10 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "@react-native-community/netinfo": "6.0.4"
+    "@react-native-community/netinfo": "6.0.5"
   },
   "peerDependencies": {
-    "react-native": "0.66.1",
+    "react-native": "0.66.2",
     "react-native-windows": "0.66.3",
     "reactxp": "github:alariej/reactxp"
   },
