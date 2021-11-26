@@ -10,11 +10,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var AndroidPlugin = require("../android/PluginBase");
 var iOSPlugin = require("../ios/PluginBase");
-var macOSPlugin = require("../macos/PluginBase");
 var WebPlugin = require("../web/PluginBase");
-var WindowsPlugin = require("../windows/PluginBase");
 var _typeCheckerAndroid = AndroidPlugin;
 var _typeCheckeriOS = iOSPlugin;
-var _typeCheckermacOS = macOSPlugin;
 var _typeCheckerWeb = WebPlugin;
-var _typeCheckerWindows = WindowsPlugin;

@@ -14,7 +14,6 @@
   },
   "peerDependencies": {
     "react-native": "0.66.3",
-    "react-native-windows": "0.66.3",
     "reactxp": "github:alariej/reactxp"
   },
   "devDependencies": {
