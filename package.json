@@ -10,17 +10,17 @@
     "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
-    "@react-native-community/netinfo": "7.1.7"
+    "@react-native-community/netinfo": "8.1.0"
   },
   "peerDependencies": {
-    "react-native": "0.66.4",
+    "react-native": "0.67.3",
     "reactxp": "github:alariej/reactxp"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.8.0",
-    "eslint": "8.5.0",
-    "eslint-plugin-import": "2.25.3",
-    "typescript": "4.5.4"
+    "@typescript-eslint/eslint-plugin": "5.14.0",
+    "eslint": "8.10.0",
+    "eslint-plugin-import": "2.25.4",
+    "typescript": "4.6.2"
   },
   "types": "dist/web/PluginBase.d.ts"
 }
