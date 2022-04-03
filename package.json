@@ -13,7 +13,7 @@
     "@react-native-community/netinfo": "8.2.0"
   },
   "peerDependencies": {
-    "react-native": "0.67.4",
+    "react-native": "0.68.0",
     "reactxp": "github:alariej/reactxp"
   },
   "devDependencies": {
